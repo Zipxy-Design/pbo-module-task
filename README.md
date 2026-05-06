@@ -66,8 +66,8 @@ Karyawan (Base Class)
 
 1. **Encapsulation**: Properti dengan getter/setter
 2. **Inheritance**: Hierarki kelas dengan pewarisan
-3. **Polymorphism**: Override method `Kerja()` di setiap subclass
-4. **Abstraction**: Base class Karyawan sebagai template
+3. **Polymorphism**: Override method `Kerja()` di setiap subclass serta penggunaan referensi base class (Karyawan) untuk memanggil method yang berbeda implementasi pada setiap objek
+4. **Abstraction**: Class Karyawan berperan sebagai dasar (base class) yang merepresentasikan konsep umum karyawan
 
 ## Cara Menjalankan
 
