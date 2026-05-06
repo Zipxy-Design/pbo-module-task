@@ -9,7 +9,7 @@ namespace PBO_ModuleTask
             Tunjangan = tunjangan;
         }
 
-        public double HitungGajiTotal()
+        public override HitungGajiTotal()
         {
             return Gaji + Tunjangan;
         }
